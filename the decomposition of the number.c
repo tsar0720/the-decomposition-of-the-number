@@ -6,7 +6,7 @@ void print_number_factors(int x)
 	int divisor = 2;
 	while(x != 1)
 	{
-		if(x%divisor == 0)
+		if(x % divisor == 0)
 		{
 			printf("%d ", divisor);
 			x /= divisor;
